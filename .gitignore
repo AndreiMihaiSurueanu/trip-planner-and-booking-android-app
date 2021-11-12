@@ -3,6 +3,10 @@
 *.ap_
 *.aab
 
+# Project resources
+VacationTourApp-master
+VacationTourApp-master.zip
+
 # Files for the ART/Dalvik VM
 *.dex
 
