@@ -10,4 +10,10 @@
     <string name="india">India</string>
     <string name="from_200">From $200</string>
     <string name="top_places">Top Places</string>
+    <string name="mughal_gardens_srinagar">Mughal Gardens, Srinagar</string>
+    <string name="_4_5">4.5</string>
+    <string name="available_flight">Available flight :</string>
+    <string name="price_range">Price range :</string>
+    <string name="_18_april_2020">18 April, 2020</string>
+    <string name="_3_00_8_00">$3,00 - $8,00</string>
 </resources>
