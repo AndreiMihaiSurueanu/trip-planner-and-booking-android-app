@@ -1,6 +1,7 @@
 package com.example.tripplannerandbookingandroidapp.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,6 +11,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.tripplannerandbookingandroidapp.DetailsActivity;
 import com.example.tripplannerandbookingandroidapp.R;
 import com.example.tripplannerandbookingandroidapp.model.RecentsData;
 
@@ -41,6 +43,14 @@ public class RecentsAdapter extends RecyclerView.Adapter<RecentsAdapter.RecentsV
         holder.placeName.setText(recentsDataList.get(position).getPlaceName());
         holder.price.setText(recentsDataList.get(position).getPrice());
         holder.placeImage.setImageResource(recentsDataList.get(position).getImageUrl());
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(context, DetailsActivity.class);
+                context.startActivity(i);
+            }
+        });
 
     }
 
