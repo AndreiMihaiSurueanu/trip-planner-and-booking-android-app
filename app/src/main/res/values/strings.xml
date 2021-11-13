@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TripPlannerAndBookingAndroidApp</string>
+    <string name="find_your">Find Your</string>
+    <string name="next_destination">Next Destination</string>
+    <string name="todo">TODO</string>
+    <string name="search_destinations">Search Destinations</string>
 </resources>
