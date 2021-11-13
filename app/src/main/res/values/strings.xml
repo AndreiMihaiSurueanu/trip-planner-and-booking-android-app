@@ -6,4 +6,7 @@
     <string name="search_destinations">Search Destinations</string>
     <string name="recent">Recent</string>
     <string name="see_all">See All</string>
+    <string name="am_lake">AM Lake</string>
+    <string name="india">India</string>
+    <string name="from_200">From $200</string>
 </resources>
