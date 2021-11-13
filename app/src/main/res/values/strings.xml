@@ -4,4 +4,6 @@
     <string name="next_destination">Next Destination</string>
     <string name="todo">TODO</string>
     <string name="search_destinations">Search Destinations</string>
+    <string name="recent">Recent</string>
+    <string name="see_all">See All</string>
 </resources>
